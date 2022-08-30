@@ -1,0 +1,208 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "",
+    "skills": "",
+    "projects": "",
+    "awards": ""
+  },
+  "basics": {
+    "name": "William T Czifro",
+    "email": "will@czifro.me",
+    "phone": "509.475.4833",
+    "website": "https://www.linkedin.com/in/william-czifro-97a5227a/",
+    "location": {
+      "address": "Spokane Valley, WA"
+    }
+  },
+  "education": [
+    {
+      "institution": "Eastern Washington University",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "startDate": "2015",
+      "endDate": "2018",
+      "gpa": ""
+    },
+    {
+      "institution": "Whitworth University",
+      "studyType": "BA",
+      "area": "Computer Science",
+      "startDate": "2011",
+      "endDate": "2015"
+    }
+  ],
+  "work": [
+    {
+      "company": "JumpCloud",
+      "location": "Remote",
+      "position": "Software Engineer, Developer Effectiveness",
+      "website": "",
+      "startDate": "Feb 2022",
+      "highlights": [
+        "Revamped dev environment to improve productivity (Workstation)",
+        "Built system to monitor repo best practices (Repo Health)",
+        "Uncovered areas to improve automated repo management (Scaffold/Origin)",
+        "Mentored junior engineers on design patterns and solution architecture"
+      ]
+    },
+    {
+      "highlights": [
+        "Team co-lead, mentored junior engineers",
+        "Proposed, planned, and developed dev tool to replace legacy tool (OneCli)",
+        "Drove key initiatives to optimize Ci performance through code pruning and optimizations",
+        "Established SLO on CI success rate using DataDog",
+        "Improved CI build times by leveraging dependency caching for legacy monoliths"
+      ],
+      "company": "OneLogin",
+      "position": "Senior Software Engineer, Engineering Effectiveness",
+      "startDate": "Jun 2021",
+      "endDate": "Feb 2022",
+      "location": "Remote"
+    },
+    {
+      "highlights": [
+        "Took full ownership of dev tool (IKE)",
+        "Led initiative to migrate CI from TeamCity to GitHub Actions",
+        "Transitioned CI and Production to AWS ECR from self-hosted Docker Registry",
+        "Incorporated AWS Secrets Manager into the dev and CI environments"
+      ],
+      "company": "OneLogin",
+      "position": "Software Engineer, Engineering Effectiveness",
+      "startDate": "Sep 2019",
+      "endDate": "Jun 2021",
+      "location": "Remote"
+    },
+    {
+      "highlights": [
+        "Collaborated with Director of Development on proposals to improve project development",
+        "Created reusable libraries to simplify backend development",
+        "Designed micro and macro level olution architecture for incoming projects"
+      ],
+      "position": "Senior Backend Engineer",
+      "company": "Gravity Jack",
+      "startDate": "Jun 2019",
+      "endDate": "Sep 2019",
+      "location": "Remote"
+    },
+    {
+      "highlights": [
+        "Implemented API-first driven development",
+        "Incorporated Ci system using TeamCity, Docker, and F# Fake build system",
+        "Introduced Functional Programming concepts to improve code quality",
+        "Handled designing and developing multiple in-flight projects"
+      ],
+      "company": "Gravity Jack",
+      "position": "Lead Backend Engineer",
+      "startDate": "Jul 2018",
+      "endDate": "Jul 2019",
+      "location": "Remote"
+    },
+    {
+      "highlights": [
+        "Developed backend solutions for projects",
+        "Led initiative to adopt Docker and Kubernetes"
+      ],
+      "company": "Gravity Jack",
+      "position": "Software Engineer",
+      "startDate": "Jul 2017",
+      "endDate": "Jul 2018",
+      "location": "Remote"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Go",
+        "Rust",
+        "JaveScript/TypeScript",
+        "C#",
+        "F#",
+        "Bash"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "GitHub Actions",
+        "CircleCI",
+        "Terraform",
+        "Nomad"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "GCP",
+        "GitHub",
+        "GitLab",
+        "BitBucket"
+      ],
+      "name": "Platforms"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Workstation in the Cloud",
+      "description": "Workstation is a dev tool for spinning up the JumpCloud stack in a local environment. This project transitioned dev to a hybrid environment by introducing a cloud component. As a result, engineers' productivity improved as their workstation performance improved.",
+      "url": "",
+      "keywords": [
+        "Go",
+        "Docker",
+        "AWS CLI",
+        "Nomad"
+      ]
+    },
+    {
+      "keywords": [
+        "Go",
+        "GitHub API",
+        "DataDog"
+      ],
+      "name": "Repo Health",
+      "description": "A monitor for tracking how well repositories are adhering to best practices such as codeowners file configured, branch protection rules, using latest tooling version, using latest version of common libraries, etc. This information was pushed to DataDog as metrics and monitors were configured for high priority practices."
+    },
+    {
+      "keywords": [
+        "JavaScript/TypeScript",
+        "AWS SDK",
+        "GitHub API",
+        "Docker",
+        "AWS Secrets Manager"
+      ],
+      "name": "OneCli",
+      "description": "A dev tool designed to replace the legacy toolchain, IKE. This was a modular toolchain designed to support: engineers, devops, CI, and automation. Engineers could build, test, and deploy there services. Devops could connect to production, scale services, and perform database operations. CI and automation tested services, handled auxiliary PR checks, and released projects when triggered. Custom modules was also supported."
+    },
+    {
+      "keywords": [
+        "GitHub Actions",
+        "AWS Secrets Manager",
+        "AWS ECR",
+        "Bash"
+      ],
+      "name": "GitHub Actions CI",
+      "url": "https://developers.onelogin.com/blog/migrating-ci-from-teamcity-github-actions",
+      "description": "Modernized CI with GitHub Actions. Pipeline was modeled after legacy TeamCity pipeline to simplify transition. Used a central repository as home for custom actions in order to scale solution across 50+ repositories."
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "projects",
+    "education",
+    "awards"
+  ]
+}
